@@ -2,6 +2,12 @@
 body{
     font-family: 'Montserrat', sans-serif;
 }
+ :root{
+    --primary-color: #4338ca;
+}
+hr{
+    margin: 2.5rem 0rem;
+}
 /** container **/
 .container {
     padding-left: 1rem;
@@ -11,3 +17,28 @@ body{
     max-width: 600px;
     margin: auto;
 }
+.link{
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+.primary-link{
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color: white;
+    border: 1px solid;
+    
+}
+.secondary-link{
+    color: var(--primary-color);
+    border-radius: 0.5rem;
+    border: 1px solid var(--primary-color)
+}
+
+/** lists **/
+ .list-non-bullet {
+     list-style: none;
+ }
+ .list-item-inline{
+    display: inline;
+    padding: 0rem 0.5rem;
+ }
