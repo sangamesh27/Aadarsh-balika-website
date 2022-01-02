@@ -5,95 +5,60 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Component Library</title>
-    <link href="style.css"  rel="stylesheet">
+    <title>Home | Aadarsh balika</title>
+   <link href="style.css" rel="stylesheet">
 </head>
 
 <body>
-    <h1 ">Welcome to sangamesh's component library</h1>
-    <p >I am making a library which would make all my projects easy to code and easy to access my library</p>
-    <hr>
-    <h2>@typography </h2>
-    <p>paragraph</p>
-    <p>this text will have <strong>strong</strong> text sample </p>
-    <small>This is relatively smaller than paragraph </small>
-    <hr>
-    <h2>@container</h2>
-    <h3>fluid container</h3>
-    <div class="container "> This is a fluid container and it will go to end of the page</div>
-    <h3>center conta iner</h3>
-    <div class="container container-center">This is a centered container and it will go till the specified width </div>
-    <hr>
-    <h2>@links</h2>
-    <a class="link primary-link" href="/">Primary Link</a>
-    <a class="link secondary-link" href="/">Secondary Link</a>
-
-    <hr>
-
-    @lists
-    <h2>@lists</h2>
-    <h3>unordered list</h3>
-
-    <ul class="non-bullet">
-        <li>Item One</li>
-        <li>Item Two</li>
-        <li>Item three</li>
-    </ul>
-    <ul class="non-bullet">
-        <li class="list-item-inline">Inline item one</li>
-        <li class="list-item-inline">Inline Item two </li>
-        <li class="list-item-inline">Inline Item three</li>
-    </ul>
-
-    <h3>reverese ordered list</h3>
-    <ol reversed>
-        <li>milk </li>
-        <li>eggs</li>
-        <li>breakff</li>
-    </ol>
-    <hr>
-    <h2>@nav</h2>
     <nav class="navigation">
-        <div class="nav-brand">I am Brand</div>
+        <div class="nav-brand">I AM DEVELOPER</div>
         <ul class="list-non-bullet nav-pills  ">
             <li class="list-item-inline ">
                 <a class="link link-active" href="/">Home</a>
             </li>
             <li class="list-item-inline ">
-                <a class="link  " href="/">Products</a>
+                <a class="link  " href="/projects.html">Projects</a>
             </li>
             <li class="list-item-inline ">
-                <a class="link " href="/" >About</a>
+                <a class="link " href="/blogs.html">Blogs</a>
             </li>
         </ul>
     </nav>
-
-    <hr>
-    <h2>header</h2>
-    <header class="hero">
+    <header class="hero"> 
         <img class="hero-img" src="/images/hero.svg">
-        <h1 class = "hero-heading" >Aadarsh balika the <span class="heading-inverted" >Web developer</span> </h1>
+        <h1 class="hero-heading">Aadarsh balika the <span class="heading-inverted">Web developer</span> </h1>
     </header>
-    <hr>
-    <section>
-        <h2>@section</h2>
-        <h3>@white section</h3>
-        <p>this will have white background</p>
+    <section class="section ow">
+        <div class="container container-center">
+            <h1>Technologies</h1>
+            <p>I am familiar with HTML5,CSS3,Git,JavaScript,NodeJs,ReactJs
+                Web hosting, Web design
+            </p>
+        </div>
     </section>
-    <section>
-        <h3>off white section</h3>
-        <p>this will have gray background</p>
+    <section class="section ">
+        <div class="container container-center">
+            <h1>Projects</h1>
+            <p>I like to showcase my work and thus, you can see my projects hosted online
+            </p>
+            <a class="link primary-link" href="/">Projects</a>
+        </div>
     </section>
-    <hr>
-    <h2>@footer</h2>
-    <footer>
-        <div>small heading inside footer</div>
-        <ul>
-            <li>social One</li>
-            <li>social Two</li>
-            <li>social three</li>
+    <section class="section ow">
+        <div class="container container-center">
+            <h1>Blogs</h1>
+            <p>I am also working on some technical and non technical blogs. I would like to show you my Blogs </p>
+            <a class="link secondary-link" href="/">Blogs</a>
+        </div>
+    </section>
+    <footer class="footer container ">
+        <div class="footer-header ">connect to my socials</div>
+        <ul class="social-links list-non-bullet ">
+            <li class="list-item-inline"><a class="link" href="https://github.com/sangamesh27">Github</a></li>
+            <li class="list-item-inline"><a class="link" href="https://twitter.com/patil27_s">Twitter</a> </li>
+            <li class="list-item-inline"><a class="link" href="https://www.instagram.com/_mr.__.patil_/">Instagram</a>
+            </li>
         </ul>
     </footer>
 </body>
-
 </html>
